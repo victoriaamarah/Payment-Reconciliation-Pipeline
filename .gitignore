@@ -169,3 +169,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore data files  
+*.csv  
+*.parquet  
+*.json  
+*.db  
+*.sqlite  
+*.log  
+
+# Ignore environment files  
+.env  
+*.env  
