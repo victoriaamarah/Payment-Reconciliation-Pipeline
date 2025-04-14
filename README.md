@@ -11,7 +11,7 @@ Payment platforms generate large volumes of transactional data that are rich in 
 
 ---
 
-![Dshboard](dashboard.png)
+![Dashboard](pipeline/dashboard.png)
 
 ---
 
