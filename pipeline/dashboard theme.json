@@ -1,0 +1,15 @@
+{
+    "name": "Stripe Dashboard Theme",
+    "dataColors": ["#5E60CE", "#4361EE", "#3A0CA3", "#7209B7", "#F72585"],
+    "background": "#ffffff",
+    "foreground": "#1E1E2F",
+    "tableAccent": "#3A0CA3",
+    "visualStyles": {
+      "*": {
+        "*": {
+          "color": [{ "solid": { "color": "#1E1E2F" } }]
+        }
+      }
+    }
+  }
+  
