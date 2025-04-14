@@ -1,13 +1,13 @@
 # Payment-Reconciliation-Pipeline
 
 ## Overview
-This project is an end-to-end data engineering pipeline that generates realistic synthetic data using [Faker](https://faker.readthedocs.io/), modeled after Stripe payment intents. The pipeline produces data in multiple formats—JSON, Parquet, and CSV, which are uploaded to Backblaze B2, the data lake. The raw data is then transformed using Databricks to prepare a clean, structured view that feeds into a Power BI dashboard. The dashboard provides business insights such as payment volume, status breakdowns, and currency distribution.
+This project is an end-to-end data engineering pipeline that generates realistic synthetic data using [Faker](https://faker.readthedocs.io/), modeled after Stripe payment intents. The pipeline produces data in multiple formats, JSON, Parquet, and CSV, which are uploaded to Backblaze B2, the data lake. The raw data is then transformed using Databricks to prepare a clean, structured view that feeds into a Power BI dashboard. The dashboard provides business insights such as payment volume, status breakdowns, and currency distribution.
 
 
 ![Architecture](pipeline/pipeline%20architecture%20flowchart.png)
 
 ## Problem Statement
-Payment platforms generate large volumes of transactional data that are rich in business value but difficult to work with in their raw form. Without an automated pipeline to handle ingestion, storage, and transformation, extracting insights becomes slow and unreliable. This project tackles that challenge by building a simulated payment data workflow—from generation to dashboard, demonstrating how data engineering turns raw transactional data into meaningful information.
+Payment platforms generate large volumes of transactional data that are rich in business value but difficult to work with in their raw form. Without an automated pipeline to handle ingestion, storage, and transformation, extracting insights becomes slow and unreliable. This project tackles that challenge by building a simulated payment data workflow, from generation to dashboard, demonstrating how data engineering turns raw transactional data into meaningful information.
 
 ---
 
