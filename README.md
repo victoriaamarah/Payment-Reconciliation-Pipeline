@@ -11,6 +11,10 @@ Payment platforms generate large volumes of transactional data that are rich in 
 
 ---
 
+![Dshboard](dashboard.png)
+
+---
+
 ## How to reproduce
 
 1. **Clone the repository**
