@@ -1,24 +1,12 @@
 # Payment-Reconciliation-Pipeline
 
 ## Overview
-This project is an end-to-end data engineering pipeline that simulates a real-world payment processing scenario by generating realistic synthetic data modeled after Stripe payment intents. The pipeline produces data in multiple formats—JSON, Parquet, and CSV—which are uploaded to Backblaze B2, serving as a cost-effective data lake. The raw data is then transformed using Databricks to prepare a clean, structured view that feeds into a Power BI dashboard. The dashboard provides key business insights such as payment volume, status breakdowns, and currency distribution, allowing stakeholders to quickly understand trends and performance.
+This project is an end-to-end data engineering pipeline that generates realistic synthetic data using [Faker](https://faker.readthedocs.io/), modeled after Stripe payment intents. The pipeline produces data in multiple formats—JSON, Parquet, and CSV, which are uploaded to Backblaze B2, the data lake. The raw data is then transformed using Databricks to prepare a clean, structured view that feeds into a Power BI dashboard. The dashboard provides business insights such as payment volume, status breakdowns, and currency distribution.
 
 ![Architecture](pipeline/pipeline%20architecture%20flowchart.png)
 
 ## Problem Statement
 Companies often face challenges in integrating data from disparate sources and formats, processing large-scale data with minimal cost, and transforming it into actionable insights. This project addresses that challenge by combining open source tools and free cloud services to build a reproducible, scalable pipeline. The work demonstrates the ability to manage structured and semi-structured data, perform quality transformations and aggregations using Databricks, and deliver visualizations through Power BI, ultimately empowering businesses to make data-driven decisions without incurring high infrastructure costs.
-
-**Data Generation**: Uses [Faker](https://faker.readthedocs.io/) to generate realistic synthetic Stripe payment data modeled on actual API responses. 
-
-## Folder Structure
-
-| Folder         | Description                                      |
-|----------------|--------------------------------------------------|
-| `data/`        | Some raw data used for the project               |
-| `scripts/`     | Scripts to load or transform data                |
-| `powerbi/`     | Power BI .pbix file and visual assets            |
-| `notebooks/`   | (Optional) Databricks/Colab notebooks            |
-| `docs/`        | Documentation and architecture notes             |
 
 ---
 
